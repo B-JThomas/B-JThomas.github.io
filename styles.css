@@ -1,0 +1,90 @@
+body {
+    background-color: #dddede;
+}
+
+section {
+    border: 2px solid black;
+    margin: 20px 0;
+}
+
+h2{
+    padding: 0 20px;
+}
+
+.black, .blue {
+    color: white;
+}
+
+.colourContainer div{
+    display: inline-block;
+    min-width: 150px;
+    width: 15%;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.blue {
+    background-color: #0fD1d1;
+    box-shadow: 0 0 2px 5px #0fD1d1;
+    border-radius: 5px;
+}
+
+.black {
+    background-color: #080c0c;
+    box-shadow: 0 0 2px 5px #080c0c;
+    border-radius: 5px;
+}
+
+.brightBlue {
+    background-color: #34e4ea;
+    box-shadow: 0 0 2px 5px #34e4ea;
+    border-radius: 5px;
+}
+
+.lightGray {
+    background-color: #ddeded;
+    box-shadow: 0 0 2px 5px #ddeded;
+    border-radius: 5px;
+}
+
+.white {
+    background-color: white;
+    box-shadow: 0 0 2px 5px white;
+    border-radius: 5px;
+}
+
+.fontSection {
+    margin: 20px 0;
+    border: 2px solid black;
+}
+
+.fontContainer {
+    background-color: white;
+    display: inline-block;
+    min-width: 150px;
+    width: 15%;
+    padding: 10px 15px;
+    margin: 20px;
+    border: 2px solid black;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.latoFont{
+    font-family: 'Lato', sans-serif;
+}
+
+.MooliFont {
+    font-family: 'Mooli', sans-serif; 
+}
+
+.RobotoFont {
+    font-family: 'Roboto', sans-serif;
+}
