@@ -104,6 +104,8 @@ button {
 img {
   max-width: 100%;
   height: auto;
+  /*Maybe*/
+  margin: 0 auto;
 }
 
 
@@ -164,6 +166,8 @@ img {
 .button-flex {
   display: inline-flex;
   align-items: center;
+  /*Maybe*/
+  column-gap: var(--smaller-font-size);
 }
 
 /* ===== BREAKPOINTS ===== */
@@ -186,8 +190,16 @@ img {
 
 /* For medium devices */
 @media screen and (max-width: 768px){
+  body {
+    margin: 0 0 var(--header-height) 0;
+  }
+
   .section {
     padding: 2rem 0 4rem;
+  }
+
+  .section_subtitle {
+     margin-bottom: var(--mb-3);
   }
 }
 
