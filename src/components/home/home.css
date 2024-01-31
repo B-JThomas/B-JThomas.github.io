@@ -1,5 +1,9 @@
+.home {
+    margin-bottom: 0;
+}
+
 .home_container {
-    row-gap: 7rem;
+    row-gap: 5rem;
 }
 
 .home_content {
@@ -59,7 +63,7 @@
 }
 
 .home_img {
-    background: url(../../assets/profile.jpg);
+    background: url(../../assets/Profile.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
