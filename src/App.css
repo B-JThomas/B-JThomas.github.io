@@ -81,8 +81,6 @@ textarea {
 body {
   background-color: var(--body-color);
   color: var(--text-color);
-  /*Maybe*/
-  padding-bottom: 10rem;
 }
 
 h1,h2,h3 {

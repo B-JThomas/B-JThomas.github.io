@@ -1,5 +1,5 @@
 .contact_container {
-    grid-template-columns: repeat(2, max-content);
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     column-gap: 6rem;
     padding-bottom: 3rem;
@@ -135,9 +135,7 @@
   }
   
   @media screen and (max-width: 576px){
-    .contact_info {
-        grid-template-columns: 1fr;
-    }
+
 
     .contact_form {
         width: 100%;
