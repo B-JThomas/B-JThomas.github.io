@@ -45,6 +45,9 @@
 
 .portfolio_project-img {
     border-radius: .5rem;
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
 }
 
 .portfolio_project-data {
@@ -62,7 +65,9 @@
     transform: translateX(8px);
 }
 
-
+.portfolio_project-data a:visited {
+    color: var(--text-color);
+  }
 
 
 
@@ -70,7 +75,9 @@
 
 /* For large devices */
 @media screen and (max-width: 992px){
-
+    .portfolio_project {
+        padding: 1rem 1rem 4rem 1rem;
+    }
   }
   
   /* For medium devices */
