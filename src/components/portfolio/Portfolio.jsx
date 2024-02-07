@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import work1 from '../../assets/Project_img-1.png'
 import work5 from '../../assets/Project_img-2.png'
-import work3 from '../../assets/work3.jpg'
 import work4 from '../../assets/work4.jpg'
 import work2 from '../../assets/work5.jpg'
 import './portfolio.css';
