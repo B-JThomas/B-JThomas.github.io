@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import work1 from '../../assets/Project_img-1.png'
 import work5 from '../../assets/Project_img-2.png'
-import work4 from '../../assets/work4.jpg'
-import work2 from '../../assets/work5.jpg'
+// import work4 from '../../assets/work4.jpg'
+// import work2 from '../../assets/work5.jpg'
 import './portfolio.css';
 
 const Portfolio = () => {
@@ -61,7 +61,7 @@ const Portfolio = () => {
                         <i className="uil uil-arrow-right portfolio_project-icon"></i>
                     </div>
                 </div>
-                <div className="portfolio_project active">
+                {/* <div className="portfolio_project active">
                     <img className="portfolio_project-img" src={work2} alt="Portfolio img" />
                     <h3 className="portfolio_project-title" >Project Name(All)</h3>
                     <div className="portfolio_project-data">
@@ -76,7 +76,7 @@ const Portfolio = () => {
                         <p>See More</p>
                         <i className="uil uil-arrow-right portfolio_project-icon"></i>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     </section>

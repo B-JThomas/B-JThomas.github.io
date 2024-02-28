@@ -18,8 +18,8 @@ const About = () => {
 
                 <p className="about_description">Software 
                 developer, I create web pages with UI / UX 
-                user interface, I have many experiences and have never 
-                let a client down.
+                user interface, I have a hunger and passiong 
+                to continue wokring and growing my skillset.
                 </p>
 
                 <a download="" href={CV} className="button button-flex">
